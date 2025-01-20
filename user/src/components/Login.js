@@ -15,7 +15,7 @@ const Login = () => {
         e.preventDefault();
         setError('');
 
-        const response = await fetch('https://frontend-vku8.vercel.app/api/user/login' , { // Cập nhật API endpoint
+        const response = await fetch('http://localhost:8081/api/register' , { // Cập nhật API endpoint
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
