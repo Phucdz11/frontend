@@ -15,8 +15,7 @@ const Login = () => {
         e.preventDefault();
         setError('');
 
-        const response = await fetch('https://frontend-admin.vercel.app/api/admin/login
-', { // Cập nhật API endpoint
+        const response = await fetch('https://frontend-admin.vercel.app/api/admin/login', { // Cập nhật API endpoint
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
