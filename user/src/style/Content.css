@@ -1,0 +1,31 @@
+.container {
+    margin-top: 105px;
+    transform: translateX(-60px);
+    padding-top: 20px;
+}
+
+.contest-slide {
+    padding: 12px; /* Add padding for individual slides */
+    margin-top: 37px;
+    background-color: #fff; /* Background color for slides */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h5 {
+    text-align: center; /* Center the title */
+}
+
+h6 {
+    text-align: center; /* Center the contest names */
+}
+
+p {
+    text-align: center; /* Center the contest description */
+}
+
+img {
+    display: block; /* Center the image */
+    margin: 0 auto;
+    width: 50%; /* Set the image width */
+}
