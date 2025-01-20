@@ -17,7 +17,7 @@ const Register = () => {
         } else if (fullname.length === 0) {
             alert("Full name has been left blank!");
         } else {
-            const url = 'http://localhost:8081/api/admin/register'; 
+            const url = 'https://frontend-admin.vercel.app/api/admin/register'; 
             const userData = {
                 username,
                 password,
